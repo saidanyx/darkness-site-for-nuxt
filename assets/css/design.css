@@ -1,0 +1,445 @@
+.design{
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 6vw;
+    margin-top: 7vw;
+}
+
+.design-title{
+    font-family: "Manrope", sans-serif;
+    font-size: 2.9vw;
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: -3vw;
+}
+
+:is(.logo-description, .figma-info) p{
+    color: #9A9A9A;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 1.5vw;
+}
+
+.logo-container{
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+}
+
+.logo-description{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6vw;
+}
+
+.logo-description h2{
+    font-family: "Manrope", sans-serif;
+    font-size: 2.2vw;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.logo-description span{
+    color: #ffffff;
+}
+
+.logo-gallery{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-gallery img{
+    border-radius: 0.3vw;
+    border: solid #383838 0.15vw;
+}
+
+.logo-gallery h3{
+    font-family: "Manrope", sans-serif;
+    font-size: 1.7vw;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+:is(.logo-item, .banner-item){
+    display: flex;
+    flex-direction: column;
+    gap: 0.3vw;
+}
+
+.logo-item-img{
+    width: 22.93vw;
+    height: auto;
+}
+
+.banner-item-img{
+    width: 36.1vw;
+    height: auto;
+}
+
+.figma-info{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2vw;
+}
+
+.figma-link{
+    color: #9A9A9A;
+    font-weight: 300;
+    font-size: 1.6vw;
+    width: 16vw;
+    height: 4vw;
+    border: solid 0.2vw #383838;
+    border-radius: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+
+@media (max-width: 1440px) {
+
+    .design{
+        width: 70vw;
+        gap: 6vw;
+        margin-top: 7vw;
+    }
+    
+    .design-title{
+        font-size: 3vw;
+        font-weight: 500;
+        margin-bottom: -2.5vw;
+    }
+    
+    :is(.logo-description, .figma-info) p{
+        font-weight: 300;
+        font-size: 1.8vw;
+    }
+    
+    .logo-container{
+        width: 70vw;
+        gap: 3vw;
+    }
+    
+    .logo-description{
+        gap: 0.6vw;
+    }
+    
+    .logo-description h2{
+        font-size: 2.5vw;
+        font-weight: 500;
+    }
+    
+    .logo-gallery img{
+        border-radius: 0.3vw;
+        border: solid #383838 0.15vw;
+    }
+    
+    .logo-gallery h3{
+        font-size: 2.1vw;
+        font-weight: 300;
+    }
+    
+    :is(.logo-item, .banner-item){
+        gap: 0.3vw;
+    }
+    
+    .figma-info{
+        gap: 1.5vw;
+    }
+    
+    .figma-link{
+        font-weight: 300;
+        font-size: 1.8vw;
+        width: 17vw;
+        height: 4.2vw;
+        border: solid 0.2vw #383838;
+        border-radius: 1vw;
+    }
+
+}
+
+@media (max-width: 1024px) {
+
+    .design{
+        width: 70vw;
+        gap: 6vw;
+        margin-top: 7vw;
+    }
+    
+    .design-title{
+        font-size: 3.5vw;
+        font-weight: 500;
+        margin-bottom: -2.5vw;
+    }
+    
+    :is(.logo-description, .figma-info) p{
+        font-weight: 300;
+        font-size: 2.2vw;
+    }
+    
+    .logo-container{
+        width: 70vw;
+        gap: 3vw;
+    }
+    
+    .logo-description{
+        gap: 0.6vw;
+    }
+    
+    .logo-description h2{
+        font-size: 2.8vw;
+        font-weight: 500;
+    }
+    
+    .logo-gallery img{
+        border-radius: 0.4vw;
+        border: solid #383838 0.2vw;
+    }
+    
+    .logo-gallery h3{
+        font-size: 2.5vw;
+        font-weight: 300;
+    }
+    
+    :is(.logo-item, .banner-item){
+        gap: 0.3vw;
+    }
+    
+    .figma-info{
+        gap: 1.5vw;
+    }
+    
+    .figma-link{
+        font-weight: 300;
+        font-size: 2.2vw;
+        width: 19.5vw;
+        height: 4.5vw;
+        border: solid 0.3vw #383838;
+        border-radius: 1.3vw;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .design{
+        width: 70vw;
+        gap: 6vw;
+        margin-top: 9vw;
+    }
+    
+    .design-title{
+        font-size: 4.2vw;
+        font-weight: 500;
+        margin-bottom: -2.5vw;
+    }
+    
+    :is(.logo-description, .figma-info) p{
+        font-weight: 300;
+        font-size: 2.7vw;
+    }
+    
+    .logo-container{
+        width: 70vw;
+        gap: 3vw;
+    }
+    
+    .logo-description{
+        gap: 0.6vw;
+    }
+    
+    .logo-description h2{
+        font-size: 3.4vw;
+        font-weight: 500;
+    }
+    
+    .logo-gallery img{
+        border-radius: 0.4vw;
+        border: solid #383838 0.2vw;
+    }
+    
+    .logo-gallery h3{
+        font-size: 3vw;
+        font-weight: 300;
+    }
+    
+    :is(.logo-item, .banner-item){
+        gap: 0.3vw;
+    }
+    
+    .figma-info{
+        gap: 1.5vw;
+    }
+    
+    .figma-link{
+        font-weight: 400;
+        font-size: 2.7vw;
+        width: 26vw;
+        height: 5.5vw;
+        border: solid 0.45vw #383838;
+        border-radius: 1.3vw;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .design{
+        width: 80vw;
+        gap: 9vw;
+        margin-top: 10vw;
+    }
+    
+    .design-title{
+        font-size: 5vw;
+        font-weight: 500;
+        margin-bottom: -2.5vw;
+    }
+    
+    :is(.logo-description, .figma-info) p{
+        font-weight: 300;
+        font-size: 3.6vw;
+    }
+    
+    .logo-container{
+        width: 80vw;
+        gap: 5vw;
+    }
+    
+    .logo-description{
+        gap: 1vw;
+    }
+    
+    .logo-description h2{
+        font-size: 4vw;
+        font-weight: 500;
+    }
+
+    .logo-gallery{
+        flex-direction: column;
+        gap: 5vw;
+    }
+    
+    .logo-gallery img{
+        border-radius: 0.6vw;
+        border: solid #383838 0.4vw;
+    }
+    
+    .logo-gallery h3{
+        font-size: 3.8vw;
+        font-weight: 300;
+    }
+    
+    :is(.logo-item, .banner-item){
+        gap: 0.3vw;
+    }
+
+    .logo-item-img{
+        width: 80vw;
+        height: auto;
+    }
+    
+    .banner-item-img{
+        width: 80vw;
+        height: auto;
+    }
+    
+    .figma-info{
+        gap: 3vw;
+    }
+    
+    .figma-link{
+        font-weight: 400;
+        font-size: 3.8vw;
+        width: 50vw;
+        height: 8vw;
+        border: solid 0.45vw #383838;
+        border-radius: 1vw;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .design{
+        width: 80vw;
+        gap: 9vw;
+        margin-top: 9vw;
+    }
+    
+    .design-title{
+        font-size: 7vw;
+        font-weight: 500;
+        margin-bottom: -2.5vw;
+    }
+    
+    :is(.logo-description, .figma-info) p{
+        font-weight: 300;
+        font-size: 5.3vw;
+    }
+    
+    .logo-container{
+        width: 80vw;
+        gap: 5vw;
+    }
+    
+    .logo-description{
+        gap: 1vw;
+    }
+    
+    .logo-description h2{
+        font-size: 6.2vw;
+        font-weight: 500;
+    }
+
+    .logo-gallery{
+        flex-direction: column;
+        gap: 5vw;
+    }
+    
+    .logo-gallery img{
+        border-radius: 0.6vw;
+        border: solid #383838 0.6vw;
+    }
+    
+    .logo-gallery h3{
+        font-size: 5.6vw;
+        font-weight: 300;
+    }
+    
+    :is(.logo-item, .banner-item){
+        gap: 0.3vw;
+    }
+
+    .logo-item-img{
+        width: 80vw;
+        height: auto;
+    }
+    
+    .banner-item-img{
+        width: 80vw;
+        height: auto;
+    }
+    
+    .figma-info{
+        gap: 3vw;
+    }
+    
+    .figma-link{
+        font-weight: 400;
+        font-size: 5.5vw;
+        width: 80vw;
+        height: 10vw;
+        border: solid 0.6vw #383838;
+        border-radius: 1.3vw;
+    }
+
+}

@@ -1,0 +1,101 @@
+.menu-button-play:hover{
+    background-color: #1f80c0;
+    border: solid #1f80c0 0.25vw;
+}
+
+.menu-button-products:hover{
+    border: solid #1f80c0 0.25vw;
+}
+
+.product:hover .product-preview{
+    background-color: #414040;
+}
+
+.product:hover .product-preview img{
+    transform: scale(1.01);
+}
+
+.moreAboutProduct-information-order-button:hover{
+    background-color: #2186c9;
+}
+
+.orderProduct-information-pay:hover{
+    background-color: #2e3131;
+}
+
+.contact-point-discord:hover img{
+    transform: scale(1.02);
+}
+
+.figma-link:hover{
+    background-color: #252525;
+}
+
+@media (max-width: 1024px) {
+
+    .menu-button-play:hover{
+        background-color: #3498DB;
+        border: solid #3498DB 0.30vw;
+        box-shadow: none;
+        transition: none;
+    }
+    
+    .menu-button-products:hover{
+        border: solid #3498DB 0.30vw;
+        box-shadow: none;
+        transition: none;
+    }
+    
+    .header-nav a:hover {
+        color: #5C5C5C;
+        transition: none;
+    }
+    
+    .moreAboutProduct-information-order-button:hover{
+        background-color: #3498DB;
+        box-shadow: none;
+        transition: none;
+    }
+    
+    .orderProduct-information-pay:hover{
+        background-color: #353838;
+        transition: none;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .menu-button-play:hover{
+        border: solid #3498DB 0.5vw;
+    }
+    
+    .menu-button-products:hover{
+        border: solid #3498DB 0.5vw;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .menu-button-play:hover{
+        border: solid #3498DB 0.5vw;
+    }
+    
+    .menu-button-products:hover{
+        border: solid #3498DB 0.5vw;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .menu-button-play:hover{
+        border: solid #3498DB 0.8vw;
+    }
+    
+    .menu-button-products:hover{
+        border: solid #3498DB 0.8vw;
+    }
+
+}

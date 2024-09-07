@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /index
+Allow: /gameMap
+Allow: /contacts
+Allow: /design
+Disallow: /userAgreement
+Disallow: /returnPolicy
+Disallow: /offer
+Disallow: /fail
+Disallow: /success
+Disallow: /error

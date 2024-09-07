@@ -1,0 +1,195 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('/assets/fonts/Inter/Inter-VariableFont_opsz,wght.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Manrope';
+    src: url('/assets/fonts/Manrope/Manrope-VariableFont_wght.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('assets/fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('assets/fonts/Roboto/Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('assets/fonts/Roboto/Roboto-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('assets/fonts/Roboto/Roboto-Light.ttf') format('truetype');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('assets/fonts/Roboto/Roboto-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('assets/fonts/Roboto/Roboto-Thin.ttf') format('truetype');
+    font-weight: 100;
+}
+
+body{
+    background-color: #1E1E1E;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+html{
+    scrollbar-gutter: stable;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    color: inherit;
+    background: transparent;
+}
+
+a{
+    all: unset;
+    cursor: pointer;
+}
+
+button{
+    all: unset;
+    cursor: pointer;
+}
+
+p{
+    all: unset;
+} 
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+
+input{
+    all: unset;
+}
+
+/*хеадер*/
+.header a:focus-visible{
+    outline: none;
+    border: 0.1vw solid #ffffff;
+}
+
+/*футер*/
+.footer a:focus-visible{
+    outline: none;
+    border: 0.1vw solid #ffffff;
+}
+
+/*Главная*/
+.menu a:focus-visible p{
+    outline: none;
+    text-decoration: underline;
+}
+
+.product:focus-visible .product-preview {
+    outline: none;
+    border: 0.1vw solid #ffffff;
+    border-bottom: none;
+}
+
+.product:focus-visible .product-info {
+    outline: none;
+    border: 0.1vw solid #ffffff;
+    border-top: none;
+}
+
+/*подробнее о продукте*/
+.moreAboutProduct-direction button:focus-visible,
+.orderProduct-direction button:focus-visible {
+    outline: none;
+    border: 0.1vw solid #ffffff;
+}
+
+.moreAboutProduct-information-buttons button:focus-visible{
+    outline: none;
+    border: 0.1vw solid #ffffff;
+}
+
+.moreAboutProduct-information-order-button:focus-visible{
+    outline: none;
+    border: 0.1vw solid #ffffff;
+}
+
+.close-button:focus-visible{
+    outline: none;
+    box-shadow: 0 0 0 0.1vw #ffffff;
+}
+
+/*купить продукт*/
+.orderProduct-information-pay:focus-visible{
+    outline: none;
+    border: 0.1vw solid #ffffff;
+}
+
+/*контакты*/
+.contact-point a:focus-visible{
+    outline: none;
+    border: 0.15vw solid #ffffff;
+}
+
+/*дизайн*/
+.figma-link:focus-visible{
+    outline: none;
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+/*покупка не удалась*/
+.fail-content-link:focus-visible{
+    outline: none;
+    border: 0.1vw solid #ffffff;
+}
+
+/*страница 404*/
+.page404-link:focus-visible{
+    outline: none;
+    border: 0.1vw solid #ffffff;
+}
+
+::-webkit-scrollbar {
+    width: 0.8vw;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #383737;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #8f8f8f;
+    border-radius: 1vw;
+    border: 0.18vw solid #383737;
+}
+
+@media (max-width: 768px) {
+
+    button, a{
+        cursor: default;
+    }
+
+}

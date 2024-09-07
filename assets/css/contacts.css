@@ -1,0 +1,306 @@
+.contacts-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7vw;
+}
+
+.contact-title{
+  font-family: "Manrope", sans-serif;
+  font-size: 2.9vw;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.contact-list{
+  display: flex;
+  gap: 3.5vw;
+  margin-top: 8vw;
+}
+
+.contact-point{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 19.5vw;
+  height: 22vw;
+  border: solid #27292A 0.35vw;
+  border-radius: 1vw;
+  position: relative;
+}
+
+:is(.contact-point-discord, .contact-point-telegram, .contact-point-gmail){
+  width: 10vw;
+  height: 10vw;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -5vw;
+  background-color: #27292A;
+}
+
+.contact-point-discord img{
+  width: 5.5vw;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.contact-point-telegram img{
+  width: 6.2vw;
+  height: auto;
+}
+
+.contact-point-gmail img{
+  width: 5.5vw;
+  height: auto;
+}
+
+.contact-point p{
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6vw;
+  color: #ffffff;
+  font-weight: 300;
+  text-align: center;
+  width: 100%; /* изменено на 100% */
+  word-wrap: break-word;
+}
+
+@media (max-width: 1440px) {
+
+  .contacts-container{
+    margin-top: 7vw;
+  }
+  
+  .contact-title{
+    font-size: 3vw;
+    font-weight: 500;
+  }
+  
+  .contact-list{
+    display: flex;
+    gap: 3.5vw;
+    margin-top: 8vw;
+  }
+  
+  .contact-point{
+    width: 21vw;
+    height: 25vw;
+    border: solid #27292A 0.42vw;
+    border-radius: 1vw;
+  }
+  
+  :is(.contact-point-discord, .contact-point-gmail){
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    top: -5vw;
+  }
+  
+  .contact-point-discord img{
+    width: 5.5vw;
+  }
+  
+  .contact-point-gmail img{
+    width: 5.5vw;
+  }
+  
+  .contact-point p{
+    font-size: 1.8vw;
+    font-weight: 300;
+  }
+
+}
+
+@media (max-width: 1024px) {
+
+  .contacts-container{
+    margin-top: 7vw;
+  }
+  
+  .contact-title{
+    font-size: 3.5vw;
+    font-weight: 500;
+  }
+  
+  .contact-list{
+    display: flex;
+    gap: 4vw;
+    margin-top: 8vw;
+  }
+  
+  .contact-point{
+    width: 28vw;
+    height: 33vw;
+    border: solid #27292A 0.6vw;
+    border-radius: 1vw;
+  }
+  
+  :is(.contact-point-discord, .contact-point-gmail){
+    width: 13.5vw;
+    height: 13.5vw;
+    border-radius: 50%;
+    top: -7vw;
+  }
+  
+  .contact-point-discord img{
+    width: 6.5vw;
+  }
+  
+  .contact-point-gmail img{
+    width: 6.5vw;
+  }
+  
+  .contact-point p{
+    font-size: 2.5vw;
+    font-weight: 300;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .contacts-container{
+    margin-top: 9vw;
+    margin-bottom: 20vw;
+  }
+  
+  .contact-title{
+    font-size: 4.2vw;
+    font-weight: 500;
+  }
+  
+  .contact-list{
+    display: flex;
+    gap: 5vw;
+    margin-top: 8vw;
+  }
+  
+  .contact-point{
+    width: 35vw;
+    height: 40vw;
+    border: solid #27292A 0.8vw;
+    border-radius: 1vw;
+  }
+  
+  :is(.contact-point-discord, .contact-point-gmail){
+    width: 16.3vw;
+    height: 16.3vw;
+    border-radius: 50%;
+    top: -8.5vw;
+  }
+  
+  .contact-point-discord img{
+    width: 8vw;
+  }
+  
+  .contact-point-gmail img{
+    width: 8vw;
+  }
+  
+  .contact-point p{
+    font-size: 3.1vw;
+    font-weight: 300;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .contacts-container{
+    margin-top: 10vw;
+    margin-bottom: 25vw;
+  }
+  
+  .contact-title{
+    font-size: 5vw;
+    font-weight: 500;
+  }
+  
+  .contact-list{
+    display: flex;
+    gap: 5.2vw;
+    margin-top: 8vw;
+  }
+  
+  .contact-point{
+    width: 37vw;
+    height: 45vw;
+    border: solid #27292A 1vw;
+    border-radius: 1vw;
+  }
+  
+  :is(.contact-point-discord, .contact-point-gmail){
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    top: -8.5vw;
+  }
+  
+  .contact-point-discord img{
+    width: 10.5vw;
+  }
+  
+  .contact-point-gmail img{
+    width: 10.5vw;
+  }
+  
+  .contact-point p{
+    font-size: 4vw;
+    font-weight: 300;
+    width: 30vw;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .contacts-container{
+    margin-top: 10vw;
+    margin-bottom: 15vw;
+  }
+  
+  .contact-title{
+    font-size: 7vw;
+    font-weight: 500;
+  }
+  
+  .contact-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20vw;
+    margin-top: 20vw;
+  }
+  
+  .contact-point{
+    width: 60vw;
+    height: 70vw;
+    border: solid #27292A 1.3vw;
+    border-radius: 3vw;
+  }
+  
+  :is(.contact-point-discord, .contact-point-gmail){
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    top: -15vw;
+  }
+  
+  .contact-point-discord img{
+    width: 13vw;
+  }
+  
+  .contact-point-gmail img{
+    width: 13vw;
+  }
+  
+  .contact-point p{
+    font-size: 6vw;
+    font-weight: 300;
+    width: 45vw;
+  }
+
+}
