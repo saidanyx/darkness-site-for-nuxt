@@ -37,8 +37,8 @@ export default {
   modules: ['@nuxtjs/sitemap', '@nuxtjs/robots'],
 
   site: {
-    url: 'https://darkness.pw/', // Укажите свой URL
-    name: 'Darkness'  // Опционально: имя, отображаемое на вашей карте сайта
+    url: 'https://darkness.pw/',
+    name: 'Darkness'
   },
 
   sitemap: {
